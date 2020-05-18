@@ -23,7 +23,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['@/assets/scss/main.scss'],
+  css: [],
   /*
    ** Plugins to load before mounting the App
    */
@@ -36,33 +36,19 @@ export default {
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
-    // '@nuxtjs/tailwindcss',
+    '@nuxtjs/tailwindcss',
   ],
   /*
    ** Nuxt.js modules
    */
   modules: [
-    // Doc: https://buefy.github.io/#/documentation
-    // [
-    //   'nuxt-fontawesome',
-    //   {
-    //     imports: [
-    //       {
-    //         set: '@fortawesome/free-solid-svg-icons',
-    //         icons: ['fas'],
-    //       },
-    //     ],
-    //   },
-    // ],
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
     '@nuxtjs/style-resources',
   ],
-  styleResources: {
-    scss: ['@assets/scss/variables.scss', '@assets/scss/mixins.scss'],
-  },
+  styleResources: {},
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
