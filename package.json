@@ -1,7 +1,7 @@
 {
   "name": "nuxt-qrq-boilerplate",
   "version": "1.0.0",
-  "description": "Opinionated boilerplate for Nuxt project",
+  "description": "Opinionated boilerplate for Nuxt project with Tailwind",
   "author": "AleQRQ",
   "private": true,
   "scripts": {
